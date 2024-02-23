@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+     height: 50px;
+     width: 100px;
+}
+
+.logo{
+    height: 50px;
+    background-image: url("./Assets/amazon_logo.png");
+    background-size: cover;
+}
+
+
+.box2{
+    display: flex;
+}
+
+.first{
+    color: #cccccc;
+    font-size: .7rem;
+    margin-left: 13px;
+}
+.second{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+/* styling **box3** */
+
+.search{
+    display: flex;
+    height: 40px;
+    width: 900px;
+    background-color: aquamarine;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+.search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 185, 67);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon>i{
+    font-size: 1.33rem;
+    color: black;
+}
+span{
+    font-size: .7rem;
+}
+.Account{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.returns{
+    font-size: .7rem;
+
+}
+.orders{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.cart{
+    font-size: .9rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 25px;
+}
+
+
+     /* panel section */
+
+
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.panel-all>a{
+    color: white;
+    text-decoration: none;
+}
+.panel-ops{
+    width: 80%;
+    
+}
+.panel-ops>a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    
+}
+.panel-ops>a>p{
+    margin-left: 15px;
+}
+
+    /* hero section */
+
+.hero-section{
+    height: 650px;
+    background-image: url("./Assets/hero_image.jpg");
+    background-size: cover;
+    border: .1px solid ;
+}
+.info{
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+.info>p{
+    color: black;
+    text-align: center;
+}
+
+.images{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.image1>img{
+    height: 250px;
+    width: 350px;
+}
+.image2>img{
+    height: 250px;
+    width: 350px;
+}
+.image3>img{
+    height: 250px;
+    width: 350px;
+}
+.image4>img{
+    height: 250px;
+    width: 350px;
+}
+.image5>img{
+    height: 250px;
+    width: 350px;
+}
+.im{
+    margin: 40px;
+}
+
